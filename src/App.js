@@ -39,8 +39,8 @@ export default function Home() {
       </div>
 
       <div className='bg-garage-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-[350px]">Context Behind Self-Driving Automobiles</h1>
-        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2 ">
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">Context Behind Self-Driving Automobiles</h1>
+        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
             trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> Context </button>} 
             modal 
@@ -52,10 +52,10 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>What is a Self-Driving Car?</h1>
-                <p className='font-DMSans text-3xl text-white'>
-                  Self Driving Cars are revolutionizing the way we think about transportation. 
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>What is a Self-Driving Car?</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  Self-Driving Cars are revolutionizing the way we think about transportation. 
                   These vehicles are built to navigate and drive without human intervention, 
                   using advanced technologies like sensors, cameras, and artificial intelligence.
                 </p>
@@ -74,13 +74,13 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[1000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>Why Self-Driving Cars?</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>Why Self-Driving Cars?</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   <ul>
                     <li>Safety: Higher risk of an accident caused by human error</li>
                     <li>Efficiency: Less fuel consumption and smoother transportations</li>
-                    <li>Accessibility: Better mobility for all types of people, which include the elderly and disabled</li>
+                    <li>Accessibility: Better mobility for all types of people, including the elderly and disabled</li>
                   </ul>
                 </p>
               </div>
@@ -90,8 +90,8 @@ export default function Home() {
       </div>
 
       <div className='bg-forest-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-[350px]">Where do the issues of automobiles and the transportation system stem from?</h1>
-        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2 ">
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">Where do the issues of automobiles and the transportation system stem from?</h1>
+        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
             trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
             modal 
@@ -103,9 +103,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
@@ -123,9 +123,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
@@ -135,8 +135,8 @@ export default function Home() {
       </div>
 
       <div className='bg-self-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-[350px]">Current flaws about Self-Driving Cars and Automobiles in Society</h1>
-        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2 ">
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">Current flaws about Self-Driving Cars and Automobiles in Society</h1>
+        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
             trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
             modal 
@@ -148,9 +148,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
@@ -168,9 +168,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
@@ -180,8 +180,8 @@ export default function Home() {
       </div>
 
       <div className='bg-conclusion-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-[350px]">The Environmental Impacts of Self-Driving Cars</h1>
-        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2 ">
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">The Environmental Impacts of Self-Driving Cars</h1>
+        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
             trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
             modal 
@@ -193,9 +193,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
@@ -213,9 +213,9 @@ export default function Home() {
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
           >
             {close => (
-              <div className="w-[2000px] h-auto">
-                <h1 className='w-full font-DMSans text-white text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-3xl text-white'>
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
