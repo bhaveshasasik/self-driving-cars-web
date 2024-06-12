@@ -11,6 +11,8 @@ export default function Home() {
   const [isTest4PopupOpen, setIsTest4PopupOpen] = useState(false);
   const [isTest5PopupOpen, setIsTest5PopupOpen] = useState(false);
   const [isTest6PopupOpen, setIsTest6PopupOpen] = useState(false);
+  const [isTest7PopupOpen, setIsTest7PopupOpen] = useState(false);
+  const [isTest8PopupOpen, setIsTest8PopupOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +24,8 @@ export default function Home() {
       setIsTest4PopupOpen(false);
       setIsTest5PopupOpen(false);
       setIsTest6PopupOpen(false);
+      setIsTest7PopupOpen(false);
+      setIsTest8PopupOpen(false);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -179,7 +183,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='bg-conclusion-background bg-cover bg-center h-screen relative'>
+      <div className='bg-grass-background bg-cover bg-center h-screen relative'>
         <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">The Environmental Impacts of Self-Driving Cars</h1>
         <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
@@ -223,6 +227,56 @@ export default function Home() {
           </Popup>
         </div>
       </div>
+
+      <div className='bg-dirt-background bg-cover bg-center h-screen relative'>
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">Why do Corporations invest so much money into Self-Driving Cars?</h1>
+        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
+          <Popup 
+            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
+            modal 
+            nested
+            open={isTest7PopupOpen}
+            onClose={() => setIsTest7PopupOpen(false)}
+            onOpen={() => setIsTest7PopupOpen(true)}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
+          >
+            {close => (
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  **INPUT INFORMATION HERE **
+                </p>
+              </div>
+            )}
+          </Popup>
+
+          <Popup 
+            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-[#171A20] text-white w-[264px] h-[40px] rounded-md shadow-sm transition hover:bg-[#393c41]"> **BUTTON NAME** </button>} 
+            modal 
+            nested
+            open={isTest8PopupOpen}
+            onClose={() => setIsTest8PopupOpen(false)}
+            onOpen={() => setIsTest8PopupOpen(true)}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            overlayStyle={{ background: 'rgba(0, 0, 0, 0.7)' }}
+          >
+            {close => (
+              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3 shadow-lg'>**TITLE HERE**</h1>
+                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  **INPUT INFORMATION HERE **
+                </p>
+              </div>
+            )}
+          </Popup>
+        </div>
+      </div>
+
+      <div className="w-full h-auto bg-black p-3">
+          <h1 className="font-DMSans font-light text-white text-center">Footer</h1>
+      </div>
+      
     </main>
   );
 }

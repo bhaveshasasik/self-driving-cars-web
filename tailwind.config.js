@@ -11,7 +11,9 @@ module.exports = {
         'self-background': "url('/image_1.jpg')",
         'garage-background': "url('/image_2.jpg')",
         'forest-background': "url('/image_3.jpg')",
-        'conclusion-background': "url('/image_4.jpg')",
+        'grass-background' : "url('/image_5.jpg')",
+        'dirt-background': "url('/image_4.jpg')",
+
 
         spacing: {
           '50' : '50px',
