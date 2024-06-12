@@ -16,6 +16,10 @@ module.exports = {
         spacing: {
           '50' : '50px',
           '150': '150px',
+
+          color: {
+            'custom-gray' : '#171A20',
+          }
           
         }
       },
