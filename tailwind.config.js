@@ -12,7 +12,13 @@ module.exports = {
         'garage-background': "url('/image_2.jpg')",
         'forest-background': "url('/image_3.jpg')",
         'conclusion-background': "url('/image_4.jpg')",
-      }
+
+        spacing: {
+          '50' : '50px',
+          '150': '150px',
+          
+        }
+      },
     },
   },
   plugins: [],
