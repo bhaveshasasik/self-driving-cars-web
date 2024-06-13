@@ -15,7 +15,6 @@ export default function Home() {
   const [isTest7PopupOpen, setIsTest7PopupOpen] = useState(false);
   const [isTest8PopupOpen, setIsTest8PopupOpen] = useState(false);
   const [isTest9PopupOpen, setIsTest9PopupOpen] = useState(false);
-  const [isTest10PopupOpen, setIsTest10PopupOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +29,6 @@ export default function Home() {
       setIsTest7PopupOpen(false);
       setIsTest8PopupOpen(false);
       setIsTest9PopupOpen(false);
-      setIsTest10PopupOpen(false);
     };
 
     window.addEventListener('scroll', handleScroll);
