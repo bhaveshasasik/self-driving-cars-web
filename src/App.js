@@ -319,7 +319,7 @@ export default function Home() {
                   Less than 15% of US Drivers can afford an electric vehicle, even less can afford an autonomous vehicle.
                   </p>
                   <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
-                  Due to biases and ableism in society, there is also a possibility that self-driving algorithms may not be accurate and will put disabled groups in danger. Sensors in self-driving cars may be accurate when it comes to detecting a walking pedestrian, but the same cannot be said for, say a pedestrian in a wheelchair.
+                  Due to biases and ableism in society, there is also a possibility that self-driving algorithms may not be accurate and will put disabled groups in danger. Sensors in self-driving cars may be accurate when it comes to detecting a walking pedestrian, but the same cannot be said for, say a pedestrian in a wheelchair. Ableism built into society is likely to translate over to programs, in which there would be data lacking on disabled folks. Self-driving car sensors may only register certain types of walking movement as a person and fail to recognize a disabled person.
                   </p>
                 </div>
               </div>
