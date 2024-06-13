@@ -13,6 +13,7 @@ module.exports = {
         'forest-background': "url('/image_3.jpg')",
         'grass-background' : "url('/image_5.jpg')",
         'dirt-background': "url('/image_4.jpg')",
+        'future-background': "url('/image_6.jpg')",
 
 
         spacing: {
