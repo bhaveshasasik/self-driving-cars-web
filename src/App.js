@@ -127,7 +127,7 @@ export default function Home() {
             open={isTest2PopupOpen}
             onClose={() => setIsTest2PopupOpen(false)}
             onOpen={() => setIsTest2PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '90vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
