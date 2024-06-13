@@ -221,7 +221,7 @@ export default function Home() {
       </div>
 
       <div className='bg-grass-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40">The Environmental Impacts of Self-Driving Cars</h1>
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-yellow-50 p-10 md:p-20 lg:p-32 xl:p-40">The Environmental Impacts of Self-Driving Cars</h1>
         <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
             trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> Environmental Impacts </button>} 
@@ -235,21 +235,26 @@ export default function Home() {
           >
             {close => (
               <div className="w-full h-auto max-w-5xl p-10 mx-auto">
-                <h1 className='flex w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3'>What are the Environmental Impacts of Self-Driving Cars?</h1>
+                <h1 className='flex w-full font-DMSans text-yellow-50 text-2xl md:text-3xl lg:text-4xl font-bold my-3'>What are the Environmental Impacts of Self-Driving Cars?</h1>
                 <div className="space-y-4">
-                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
                     The production of advanced sensors and batteries involves energy intensive processes, raw materials and heavier vehicles, leading to negative environmental
-                    impacts. Majority of self-driving vehicles are EVs. This is because electric vehicles have stable power and low latency. Demand for lithium and nickle to manufacture EV batteries will increase by 4000%
+                    impacts. Majority of self-driving vehicles are EVs. This is because electric vehicles have stable power and low latency. The cameras and sensors required
+                    a stable power source, and unlike a gas vehicle, EVs have large battery packs. The existance of a battery pack also allows for lower latency
+                    because electricity is faster than combustion making everything more efficinet.
+                  </p>
+                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
+                    Demand for lithium and nickle to manufacture EV batteries will increase by 4000%
                     between 2020 - 2024 if we continue to go down the privatization of vehicles path. Companies are opening new mines to meet the sudden demand.
                     The tech companies and electric vehicle companies all use minerals that have harmful effects on the workers and the environment in the mine.
                     These mines destroy habitats and create a lot of damage.
                   </p>
-                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
                     Lithium ion batteries are extremely heavy and inefficient. This results in shorter ranges compared to a gas vehicle, meaning that the electric vehicle will need to stop more often to charge. 
                     Even though the EV itself doesn't have emissions, the carbon dioxide released into the air from creating that electricity comes out in mass quantities. In the year of 2022, the electricity required to charge the vehicles
                     created 7490 pounds of CO2 into the air.
                   </p>
-                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
+                  <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
                     The emissions to manufacture self-driving cars will sky rocket by the year of 2050 according to
                     a study done by University of California, Davis. In the pie chart below, we can see the different methods the US uses 
                     to create electricity. 58% of our electricity comes from burning natural gas and coal. These two methods emit tons of 
@@ -263,7 +268,7 @@ export default function Home() {
           </Popup>
 
           <Popup 
-            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-[#171A20] text-yellow-50 w-[264px] h-[40px] rounded-md shadow-sm transition hover:bg-[#393c41]"> **BUTTON NAME** </button>} 
+            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-[#171A20] text-yellow-50 w-[264px] h-[40px] rounded-md shadow-sm transition hover:bg-[#393c41]"> Technologies Needed </button>} 
             modal 
             nested
             open={isTest6PopupOpen}
@@ -344,10 +349,10 @@ export default function Home() {
       </div>
 
       <div className='bg-future-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40"></h1>
+        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-yellow-50 p-10 md:p-20 lg:p-32 xl:p-40">Perspective</h1>
         <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Popup 
-            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
+            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm">Paris Marx's</button>} 
             modal 
             nested
             open={isTest9PopupOpen}
@@ -358,33 +363,8 @@ export default function Home() {
           >
             {close => (
               <div className="w-full h-auto max-w-5xl p-10 mx-auto">
-                <h1 className='w-full font-DMSans text-yellow-50 text-2xl md:text-3xl lg:text-4xl font-bold my-3'>**TITLE HERE**</h1>
+                <h1 className='w-full font-DMSans text-yellow-50 text-2xl md:text-3xl lg:text-4xl font-bold my-3'>Paris Marx's Perspective from "Road to Nowhere"</h1>
                 <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
-                  **INPUT INFORMATION HERE **
-                </p>
-              </div>
-            )}
-          </Popup>
-        </div>
-      </div>
-
-      <div className='bg-future-background bg-cover bg-center h-screen relative'>
-        <h1 className="font-DMSans font-medium text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-center text-white p-10 md:p-20 lg:p-32 xl:p-40"></h1>
-        <div className="flex space-x-5 absolute bottom-32 left-1/2 transform -translate-x-1/2">
-          <Popup 
-            trigger={<button type="button" className="font-DMSans text-center font-semibold bg-white w-[264px] h-[40px] rounded-md shadow-sm"> **BUTTON NAME** </button>} 
-            modal 
-            nested
-            open={isTest9PopupOpen}
-            onClose={() => setIsTest9PopupOpen(false)}
-            onOpen={() => setIsTest9PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
-            overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
-          >
-            {close => (
-              <div className="w-full h-auto max-w-5xl p-10 mx-auto">
-                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3'>**TITLE HERE**</h1>
-                <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-white'>
                   **INPUT INFORMATION HERE **
                 </p>
               </div>
