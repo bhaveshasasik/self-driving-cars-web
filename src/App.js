@@ -112,10 +112,10 @@ export default function Home() {
           >
             {close => (
               <div className="w-full h-auto max-w-5xl p-10 mx-auto">
-                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3'>The Early Transition to Automobiles</h1>
+                <h1 className='w-full font-DMSans text-white text-2xl md:text-3xl lg:text-4xl font-bold my-3'>The Transition to Automobiles</h1>
                 <div className="w-full flex justify-center">
                   <div className="w-full">
-                    <img src="/timeline.png" alt="timeline" className="w-full h-auto"/>
+                    <img src="/timeline.svg" alt="timeline" className="w-auto h-auto scale-150"/>
                   </div>
                 </div>
               </div>
