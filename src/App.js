@@ -230,7 +230,7 @@ export default function Home() {
             open={isTest5PopupOpen}
             onClose={() => setIsTest5PopupOpen(false)}
             onOpen={() => setIsTest5PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '90vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -241,7 +241,7 @@ export default function Home() {
                     The production of advanced sensors and batteries involves energy intensive processes, raw materials and heavier vehicles, leading to negative environmental
                     impacts. Majority of self-driving vehicles are EVs. This is because electric vehicles have stable power and low latency. The cameras and sensors required
                     a stable power source, and unlike a gas vehicle, EVs have large battery packs. The existance of a battery pack also allows for lower latency
-                    because electricity is faster than combustion making everything more efficinet.
+                    because electricity is faster than combustion making everything more efficient.
                   </p>
                   <p className='font-DMSans text-xl md:text-2xl lg:text-3xl text-yellow-50'>
                     Demand for lithium and nickle to manufacture EV batteries will increase by 4000%
@@ -274,7 +274,7 @@ export default function Home() {
             open={isTest6PopupOpen}
             onClose={() => setIsTest6PopupOpen(false)}
             onOpen={() => setIsTest6PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '90vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -305,7 +305,7 @@ export default function Home() {
             open={isTest7PopupOpen}
             onClose={() => setIsTest7PopupOpen(false)}
             onOpen={() => setIsTest7PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '90vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
