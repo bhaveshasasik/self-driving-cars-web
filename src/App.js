@@ -54,7 +54,7 @@ export default function Home() {
             open={isContextPopupOpen}
             onClose={() => setIsContextPopupOpen(false)}
             onOpen={() => setIsContextPopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -76,7 +76,7 @@ export default function Home() {
             open={isWhyPopupOpen}
             onClose={() => setIsWhyPopupOpen(false)}
             onOpen={() => setIsWhyPopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -129,7 +129,7 @@ export default function Home() {
             open={isTest2PopupOpen}
             onClose={() => setIsTest2PopupOpen(false)}
             onOpen={() => setIsTest2PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -170,7 +170,7 @@ export default function Home() {
             open={isTest3PopupOpen}
             onClose={() => setIsTest3PopupOpen(false)}
             onOpen={() => setIsTest3PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -190,7 +190,7 @@ export default function Home() {
             open={isTest4PopupOpen}
             onClose={() => setIsTest4PopupOpen(false)}
             onOpen={() => setIsTest4PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -215,7 +215,7 @@ export default function Home() {
             open={isTest5PopupOpen}
             onClose={() => setIsTest5PopupOpen(false)}
             onOpen={() => setIsTest5PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -240,7 +240,7 @@ export default function Home() {
             open={isTest6PopupOpen}
             onClose={() => setIsTest6PopupOpen(false)}
             onOpen={() => setIsTest6PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -265,7 +265,7 @@ export default function Home() {
             open={isTest7PopupOpen}
             onClose={() => setIsTest7PopupOpen(false)}
             onOpen={() => setIsTest7PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
@@ -285,7 +285,7 @@ export default function Home() {
             open={isTest8PopupOpen}
             onClose={() => setIsTest8PopupOpen(false)}
             onOpen={() => setIsTest8PopupOpen(true)}
-            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px' }}
+            contentStyle={{ border: 'none', borderRadius: '10px', padding: '20px', maxHeight: '80vh', overflow: 'auto' }}
             overlayStyle={{ background: 'rgba(0, 0, 0, 0.85)' }}
           >
             {close => (
